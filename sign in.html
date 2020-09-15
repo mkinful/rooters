@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/389769c8c7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo2.png" width="100px " alt="logo 1" />
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="t-shirts.html">Items</a></li>
+                    <li><a href="jordans.html">Best Sellers</a></li>
+                    <li><a href="sign in.html">Sign In</a></li>
+                    <li><a href="about us.html">About Us</a></li>
+                  </ul>
+            </nav>
+            <img src="images/cart.png" width="35px" alt="cart" />
+
+        </div>
+
+    </div>
+
+    <!---Sign In-->
+
+        <div class="log-in">
+            <div class="form-box">
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <button type="button" class="toggle-btn" onclick="login()" >Log In</button>
+                    <button type="button" class="toggle-btn" onclick="register()" >Register</button>
+                </div>
+                <div class="social">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram-square"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+                <form id="login" class="input-group">
+                    <input type="text" class="input-field" placeholder="User Name" required>
+                    <input type="text" class="input-field" placeholder="Password" required>
+                    <input type="checkbox" class="check-box"> <span>Remember Password</span>
+                    <button type="submit" class="submit-btn">Log In</button>
+                </form>
+                <form id="register" class="input-group">
+                    <input type="text" class="input-field" placeholder="User Name" required>
+                    <input type="email" class="input-field" placeholder="Email" required>
+                    <input type="text" class="input-field" placeholder="Password" required>
+                    <input type="text" class="input-field" placeholder="Confirm Password" required>
+                    <button type="submit" class="submit-btn">Register</button>
+                </form>
+            </div>
+            
+        </div>
+
+    
+
+        <!--Footer-->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                       
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2020</p>
+            </div>
+        </div>
+
+        <script src="main.js"></script>
+</body>
+
+</html>
