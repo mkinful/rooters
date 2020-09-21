@@ -104,7 +104,14 @@ p {
   margin: auto;
   padding-left: 25px;
   padding-right: 25px;
+  margin-top: 20px;
 }
+
+.shirt-title{
+  font-size: 30px;
+  color:rgb(46, 45, 45);
+}
+
 .col-4 {
   flex-basis: 25%;
   padding: 20px;
@@ -210,7 +217,7 @@ ul {
   color: #fff;
 }
 
-/*--All Products--*/
+/*--Products--*/
 .row2 {
   justify-content: space-between;
   margin: 100px auto 50px;
@@ -242,7 +249,7 @@ select:focus {
   color: #fff;
 }
 
-/*--Single Product Details--*/
+/*--Single Products--*/
 .single-product {
   margin-top: 80px;
 }
@@ -427,6 +434,39 @@ span{
 }
 #login{
   left: 450px;
+}
+
+/*--About--*/
+
+.about{
+  padding: 30px;
+  margin: 30px;
+  word-spacing: 6px;
+  letter-spacing: 1px;
+  font-family: fantasy;
+  font-weight: bolder;
+}
+
+.about-heading{
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.about-para{
+  padding: 20px;
+}
+
+.leader{
+  padding: 30px;
+  margin: 30px;
+}
+
+.lead{
+  text-align: center;
+}
+
+.about-img{
+  width: 35%;
 }
 
 /*--media query for menu--*/
