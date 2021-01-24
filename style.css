@@ -58,7 +58,7 @@ p {
   min-width: 300px;
 }
 .col-2 img {
-  max-width: 65%;
+  max-width: 50%;
   padding: 50px 0;
   margin: 0 auto;
   display: block;
@@ -471,7 +471,7 @@ span{
 
 /*--media query for menu--*/
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1080px) and (min-width: 320px) {
   nav ul {
     position: absolute;
     top: 90px;
@@ -482,7 +482,7 @@ span{
   }
 }
 nav ul li {
-  margin-right: 30px;
+  margin-right: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
